@@ -47,7 +47,7 @@ Projede yaptıklarımızı uzak bilgisayara ilk defa göndermek istiyorsak, git 
 
 ```bash
 git config --global user.mail "mailadresi"
-git config --global user.name "İsim Soyisim"
+git config --global user.name "İsim Soyisim"```
 
 ## Branch ile İlgili Komutlar:
 Branch, bir projedeki ana yapıyı bozmadan yeni değişiklikler denemek için kullanılan bir yapıdır. Örneğin, elinizde bir hamur var ve pizza yapmak istiyorsunuz. Bir parça hamuru alıp farklı malzemeler ekliyorsunuz. Eğer beğenirseniz, bu değişikliği ana pizzaya ekleyebilirsiniz. Git’te branch kullanmak, ana yapıyı bozmadan yeni özellikleri test etmek gibidir.
@@ -99,7 +99,7 @@ img/ (Buradaki gibi dosya şeklinde de belirtebilirsiniz.)
 # log (Log dosyalarının yüklenmemesini belirtebilirsin.)
 *.log
 
-Password.txt (Proje içerisinde yazmış olduğun ama paylaşmak istemediğin herhangi bir dosyayı da burada belirtebilirsin.)
+Password.txt (Proje içerisinde yazmış olduğun ama paylaşmak istemediğin herhangi bir dosyayı da burada belirtebilirsin.)```
 
 ## .gitignore Dosyası İçin Bilmemiz Gereken Önemli Noktalar:
 
