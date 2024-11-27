@@ -45,10 +45,9 @@ Bir proje açıldığında, ilk defa versiyon kontrol sistemi kullanılacaksa, `
 
 Projede yaptıklarımızı uzak bilgisayara ilk defa göndermek istiyorsak, git konfigürasyon ayarlarında e-mail ve kullanıcı adımızı belirtmemiz gerekiyor. Burada şu komutları yazmamız gerekiyor:
 
-```bash
-git config --global user.mail "mailadresi"
-git config --global user.name "İsim Soyisim"```
-
+```git config --global user.mail "mailadresi"
+git config --global user.name "İsim Soyisim"
+```
 ## Branch ile İlgili Komutlar:
 Branch, bir projedeki ana yapıyı bozmadan yeni değişiklikler denemek için kullanılan bir yapıdır. Örneğin, elinizde bir hamur var ve pizza yapmak istiyorsunuz. Bir parça hamuru alıp farklı malzemeler ekliyorsunuz. Eğer beğenirseniz, bu değişikliği ana pizzaya ekleyebilirsiniz. Git’te branch kullanmak, ana yapıyı bozmadan yeni özellikleri test etmek gibidir.
 
@@ -100,7 +99,7 @@ img/ (Buradaki gibi dosya şeklinde de belirtebilirsiniz.)
 *.log
 
 Password.txt (Proje içerisinde yazmış olduğun ama paylaşmak istemediğin herhangi bir dosyayı da burada belirtebilirsin.)```
-
+```
 ## .gitignore Dosyası İçin Bilmemiz Gereken Önemli Noktalar:
 
 - Derleme sırasında oluşturulan `bin/`, `obj/` gibi klasörlerin repository’de yer almaması gerekiyor.
