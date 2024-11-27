@@ -29,8 +29,9 @@ Git, 2005 yılında Linux çekirdeğinin geliştirilmesi için yapılmıştır. 
 
 ## Source Control System
 
-Buradaki temel komutların sırası ve mantığı için çok açıklayıcı bir görsel.
+![Versiyon Komut Sistemi](https://github.com/user-attachments/assets/13c3f26c-a871-4df5-921d-8b56835b68e9)
 
+Buradaki temel komutların sırası ve mantığı için çok açıklayıcı bir görsel.
 ## Önemli Git Terimleri:
 
 - **Untracked**: GIT tarafından takip edilmeyen, yeni oluşturulmuş dosyalar.
@@ -50,6 +51,8 @@ git config --global user.name "İsim Soyisim"
 
 ## Branch ile İlgili Komutlar:
 Branch, bir projedeki ana yapıyı bozmadan yeni değişiklikler denemek için kullanılan bir yapıdır. Örneğin, elinizde bir hamur var ve pizza yapmak istiyorsunuz. Bir parça hamuru alıp farklı malzemeler ekliyorsunuz. Eğer beğenirseniz, bu değişikliği ana pizzaya ekleyebilirsiniz. Git’te branch kullanmak, ana yapıyı bozmadan yeni özellikleri test etmek gibidir.
+
+![image](https://github.com/user-attachments/assets/873f798e-2119-40eb-999e-4295a08aefb3)
 
 - Projenize yerel veya uzak repository’de branch eklemek için `git branch branchismi` komutunu kullanabilirsiniz.
 - Var olan tüm branch’leri görmek için, `git branch -a` komutunu kullanabilirsiniz.
